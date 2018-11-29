@@ -1,0 +1,28 @@
+.menu-hamburguer {
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    right: 10px;
+  };
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+    background-color: #fa4242;
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 2;
+  };
+
+.filtros {
+    display: none;
+    justify-content: space-around;
+    align-items: center;
+  };
+
